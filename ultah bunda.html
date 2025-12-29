@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selamat Ulang Tahun Mama</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ffdee9, #b5fffc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 30px 25px;
+      max-width: 420px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      animation: fadeIn 2s ease;
+    }
+    img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
+    }
+    h1 {
+      color: #ff6f91;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #444;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    .heart {
+      font-size: 40px;
+      animation: pulse 1.5s infinite;
+    }
+    .from {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #555;
+    }
+    audio {
+      margin-top: 15px;
+      width: 100%;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart">💖</div>
+
+    <img src="bunda.jpg.jpeg" alt="bunda.jpg" />
+
+    <h1>Selamat Ulang Tahun, Mama</h1>
+    <p>
+      Terima kasih atas semua cinta, doa, dan pengorbanan Mama selama ini.
+      Setiap langkah hidupku tidak pernah lepas dari kasih sayang Mama.
+      Semoga Mama selalu diberi kesehatan, kebahagiaan, dan umur yang panjang.
+      Aku akan selalu sayang bunda 🤍
+    </p>
+
+    <audio  <audio controls autoplay loop>
+      <source src="audio.mp3.exe" type="audio/mpeg" />
+      Browser kamu tidak mendukung audio.
+    </audio>
+
+    <p class="from">— Dari anakmu, Raffa</p>
+  </div>
+</body>
+</html>
